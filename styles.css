@@ -10964,6 +10964,9 @@ section {
   .banner-content > h2, .banner-content > .h2 {
     font-size: 35px;
   }
+  .banner {
+    width: 100%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .banner-content > h1, .banner-content > .h1 {
@@ -11202,7 +11205,6 @@ li {
   cursor: pointer;
 }
 
-/* This pen */
 body {
   font-family: "Baloo 2", cursive;
   font-size: 16px;
