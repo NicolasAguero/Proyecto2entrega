@@ -10923,6 +10923,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  padding: 0;
+  margin: 0px;
+}
+
 section {
   padding: 60px 0;
 }
@@ -10958,14 +10963,11 @@ section {
 
 @media (max-width: 575.98px) {
   .banner-content > h1, .banner-content > .h1 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .banner-content > h2, .banner-content > .h2 {
-    font-size: 35px;
-  }
-  .banner {
-    width: 100%;
+    font-size: 20px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
